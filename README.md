@@ -21,8 +21,9 @@ const shapeStyles = {
     backgroundColor: 'transparent',
   },
 };
-'''
-##🧠 استیت‌ها و رفرنس‌ها
+
+## 🧠 استیت‌ها و رفرنس‌ها
+'''js
 const [selectedShape, setSelectedShape] = useState('square');
 const [shapesOnCanvas, setShapesOnCanvas] = useState([]);
 const fileInputRef = useRef(null);
