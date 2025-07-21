@@ -22,7 +22,7 @@ const shapeStyles = {
   },
 };
 '''
-🧠 استیت‌ها و رفرنس‌ها
+##🧠 استیت‌ها و رفرنس‌ها
 const [selectedShape, setSelectedShape] = useState('square');
 const [shapesOnCanvas, setShapesOnCanvas] = useState([]);
 const fileInputRef = useRef(null);
